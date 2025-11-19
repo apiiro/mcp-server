@@ -1,0 +1,26 @@
+{
+  "name": "apiiro-agent",
+  "version": "1.0.0",
+  "description": "Apiiro Application Security Posture Management (ASPM) tools for Gemini CLI. Query security risks, analyze repositories, trigger diff scans, and manage security findings directly from your terminal.",
+  "author": "Apiiro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apiiro/mcp-server"
+  },
+  "mcpServers": {
+    "apiiro": {
+      "description": "Apiiro security analysis and risk management - query repositories, trigger diff scans, and manage security findings.",
+      "httpUrl": "https://app.apiiro.com/mcp/server",
+      "headers": {
+        "Authorization": "Bearer $APIIRO_API_TOKEN"
+      }
+    }
+  },
+  "keywords": [
+    "security",
+    "aspm",
+    "apiiro",
+    "risk-management",
+    "code-security"
+  ]
+}
