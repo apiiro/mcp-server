@@ -14,8 +14,8 @@ The Gemini extension is configured through `gemini-extension.json` and provides 
 
 **Configuration:**
 - Extension manifest: `gemini-extension.json`
-- Server endpoint: `https://app.apiiro.com/mcp/server`
-- Authentication: Requires `APIIRO_API_TOKEN` environment variable
+- Server endpoint: `https://mcp.apiiro.com/mcp`
+- Authentication: OAuth, optional `$APIIRO_API_TOKEN` bearer token
 
 ## Security Capabilities
 
@@ -37,8 +37,7 @@ The Apiiro MCP server acts as a bridge between AI coding assistants and the Apii
 To use the Apiiro Guardian Agent, you need:
 
 1. An Apiiro account with API access
-2. An API token set in the `APIIRO_API_TOKEN` environment variable
-3. A supported AI assistant configured to use MCP servers
+2. A supported AI assistant configured to use MCP servers
 
 ## License
 

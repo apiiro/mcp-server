@@ -10,10 +10,7 @@
   "mcpServers": {
     "apiiro": {
       "description": "Apiiro security analysis and risk management - write secure code, query repositories, trigger diff scans, and manage security findings.",
-      "httpUrl": "https://app.apiiro.com/mcp/server",
-      "headers": {
-        "Authorization": "Bearer $APIIRO_API_TOKEN"
-      }
+      "httpUrl": "https://mcp.apiiro.com/mcp"
     }
   },
   "keywords": [
