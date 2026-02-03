@@ -1,7 +1,7 @@
 {
-  "name": "apiiro-guardian-agent",
+  "name": "Apiiro Guardian Agent",
   "version": "1.0.0",
-  "description": "Apiiro Application Security Posture Management (ASPM) tools for Gemini CLI. Write secure code, query security risks, analyze repositories, trigger diff scans and manage security findings directly from your terminal.",
+  "description": "Agentic Application Security Platform (ASPM) for Gemini CLI prevents risk before code exists by rewriting prompts into secure prompts using each repository’s Software Graph and organizational security and compliance policies. Run differential SAST, SCA, and Secrets scans and AutoFix risks directly from your terminal before commit.",
   "author": "Apiiro",
   "repository": {
     "type": "git",
@@ -15,7 +15,18 @@
   },
   "keywords": [
     "security",
+    "secure-prompt",
     "aspm",
+    "SAST",
+    "SCA",
+    "secrets",
+    "compliance",
+    "PCI",
+    "FedRAMP",
+    "ISO",
+    "NIST",
+    "SLSA",
+    "CIS",
     "apiiro",
     "risk-management",
     "code-security"
