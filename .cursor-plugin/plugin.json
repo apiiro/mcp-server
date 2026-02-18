@@ -1,0 +1,26 @@
+{
+  "name": "apiiro-guardian-agent",
+  "displayName": "Apiiro Guardian Agent",
+  "version": "1.0.0",
+  "description": "Agentic Application Security Platform (ASPM) for Cursor. Prevents risk before code exists by rewriting prompts into secure prompts using each repository's Software Graph and organizational security and compliance policies. Run differential SAST, SCA, and Secrets scans and AutoFix risks directly from your IDE before commit.",
+  "author": {
+    "name": "Apiiro",
+    "email": "support@apiiro.com"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "security",
+    "aspm",
+    "secure-prompt",
+    "SAST",
+    "SCA",
+    "secrets",
+    "compliance",
+    "risk-management",
+    "code-security",
+    "apiiro",
+    "threat-modeling",
+    "vulnerability",
+    "CVE"
+  ]
+}

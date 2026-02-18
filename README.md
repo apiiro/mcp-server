@@ -8,6 +8,11 @@ This MCP server connects AI assistants to Apiiro's security analysis platform, p
 
 ## Supported Integrations
 
+### Cursor Plugin
+
+1. Open Cursor Settings > Tools & Integrations > MCP Tools
+2. Add a new MCP server with the URL: `https://mcp.apiiro.com/mcp`
+
 ### Google Gemini Extension
 
 The Gemini extension is configured through `gemini-extension.json` and provides access to Apiiro's security analysis tools within the Gemini CLI environment.
