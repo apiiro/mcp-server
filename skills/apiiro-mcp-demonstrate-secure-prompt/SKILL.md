@@ -1,5 +1,5 @@
 ---
-name: apiiro-mcp-secure-prompt-examples
+name: apiiro-mcp-demonstrate-secure-prompt
 description: |
   Generates 10 example `apiiro_secure_prompt` MCP tool invocations tailored to the user's current repository, runs them, and produces a before/after CSV showing the original prompt vs the security-enriched version. Analyzes the repo's tech stack, frameworks, API patterns, data models, and integrations, then produces realistic developer prompts that would trigger security classification — demonstrating how `apiiro_secure_prompt` adds value for that specific codebase. Requires Apiiro MCP to be configured. Use when the user wants to see what secure-prompt looks like in practice, wants to demo the feature, or needs onboarding examples for their team. Trigger on phrases like "show me secure-prompt examples", "generate example prompts for my repo", "demo secure-prompt", or "what prompts would trigger security guidance".
 ---
