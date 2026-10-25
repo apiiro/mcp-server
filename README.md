@@ -8,6 +8,16 @@ This MCP server connects AI assistants to Apiiro's security analysis platform, p
 
 ## Supported Integrations
 
+### Claude Code Plugin
+
+Once this plugin is listed in a Claude Code marketplace, install it from Claude Code:
+
+```text
+/plugin install apiiro-guardian-agent --marketplace <marketplace-source>
+```
+
+Replace `<marketplace-source>` with the GitHub `owner/repo` or URL of the marketplace listing this plugin.
+
 ### Cursor Plugin
 
 1. Open Cursor Settings > Tools & Integrations > MCP Tools
