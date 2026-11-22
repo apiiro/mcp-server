@@ -1,13 +1,21 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.apiiro/guardian-agent",
-  "title": "Apiiro Guardian Agent",
-  "description": "Apiiro Application Security Posture Management (ASPM) tools for AI coding assistants.",
+  "title": "Apiiro Guardian",
+  "description": "Find and fix code security risks, exposed secrets and vulnerable dependencies with Apiiro context",
   "repository": {
     "url": "https://github.com/apiiro/mcp-server",
     "source": "github"
   },
-  "version": "1.0.0",
+  "websiteUrl": "https://apiiro.com",
+  "version": "1.12.0",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/apiiro/marketplace/main/claude/.claude-plugin/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
